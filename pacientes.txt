@@ -1,0 +1,5 @@
+Sebas,cancer,A
+Javier,parto,B
+Mario,Fractura,E
+Jorge,alergia,C
+Julio,apendicitis,B
