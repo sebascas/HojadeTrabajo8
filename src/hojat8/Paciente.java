@@ -14,11 +14,13 @@ public class Paciente implements Comparable<Paciente> { //generico
 	String nombre;
     String sintoma;
     char codigo;
+    
 	
         public Paciente() {
         	nombre = "";
             sintoma = "";
             codigo = '\0';
+            
         }
 	
 	
@@ -86,7 +88,7 @@ public int compareTo(Paciente nodo2) {
 	}
 	return 0;
 }
-
+         
 public String toString(){
 	return nombre + ", " + sintoma + ", "+ codigo;
 }

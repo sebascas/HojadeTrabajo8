@@ -18,6 +18,8 @@ public class main {
 	public static void main(String [] args) throws IOException{
 	VectorHeap vectorPacientes = new VectorHeap();	   
 	String cadena;
+        System.out.print("\n BIENVENIDO A EMERGENCIAS \n");
+        System.out.print("\n LISTA DE PACIENTES DESORDEN: \n");
     FileReader f = new FileReader("pacientes.txt");
     BufferedReader b = new BufferedReader(f);
     int i=0;
@@ -43,10 +45,12 @@ public class main {
         //SETS
         i++;
     }	
+        System.out.print("\n LISTA DE PACIENTES EN ORDEN: ");
     	System.out.println(" ");
     	for (int j=0;j<contador;j++)
     	System.out.println(vectorPacientes.getCola().poll());
     	b.close();  
+        
     }
 	
 	}
