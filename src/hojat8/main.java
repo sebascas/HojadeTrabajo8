@@ -1,8 +1,6 @@
-package hojat8;
 /*-----------------------------------------------------------------------
 Carlos Javier Lima Cordon			14373
 Fernando Sebastian Castillo Echeverria		14102
-
 Algoritmos y estructura de datos
 Seccion 30
 Hoja de trabajo 8
@@ -54,4 +52,3 @@ public class main {
     }
 	
 	}
-
